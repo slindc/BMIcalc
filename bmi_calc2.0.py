@@ -9,6 +9,7 @@ inputedLbs = float(input("Weight in # : ") or "1")
 
 
 # def functions
+
 def height2M(inputedFeet, inputedInches):
     return ((inputedFeet * 12) + inputedInches) * .0254
 
