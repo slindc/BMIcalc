@@ -1,10 +1,11 @@
 # import
 
-from tkinter import *
-
 # title
+
 print("slindc's BMIcalc")
+
 # set variables
+
 inputedAge = float(input("Persons age in years : ") or "21")
 inputedFeet = float(input("Hight_Feet : ") or "0")
 inputedInches = float(input("Inches : ") or "0")
