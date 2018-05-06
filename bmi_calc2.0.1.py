@@ -13,7 +13,7 @@ inputedLbs = float(input("Weight in # : ") or "1")
 
 # lists
 
-messages =  ["You are underweight!",
+messages =  ["You are underweight! ",
             "Congratulations, you are good! ",
             "You are overweight! ",
             "You are obese! ",
