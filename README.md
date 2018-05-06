@@ -1,2 +1,2 @@
 # BMIcalc
-Written in Python3.5 with Jupyter note book and or Pycharm with GitHub integration
+Written in Python3.5 with Jupyter note book and or Pycharm with GitHub integration.
