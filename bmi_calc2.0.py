@@ -9,11 +9,11 @@ inputedLbs = float(input("Weight in # : ") or "1")
 
 
 # def functions
-def height2CM(inputedFeet, inputedInches):
+def height2M(inputedFeet, inputedInches):
     return ((inputedFeet * 12) + inputedInches) * .0254
 
 
-height = height2CM(inputedFeet, inputedInches)
+height = height2M(inputedFeet, inputedInches)
 
 
 
@@ -36,13 +36,12 @@ bmi = calcBMI(weight, height)
 print(bmi)
 
 # list
-# L = [["You are underweight!"], ["Congratulations, you are good! "], ["You are overweight! "], ["You are obese! "]]
 
 messages =  ["You are underweight!", 
             "Congratulations, you are good! ", 
             "You are overweight! ", 
             "You are obese! ",
-            "Not enough information porvided to make BIM calculations."]
+            "Not enough information provided to make BIM calculations."]
 
 if (inputedAge<= 20):
     input("Plot on graph @ https://www.cdc.gov/healthyweight/assessing/bmi/childrens_bmi/about_childrens_bmi.html")
