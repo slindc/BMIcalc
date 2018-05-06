@@ -1,5 +1,7 @@
 # import
 
+from tkinter import *
+
 # title
 print("slindc's BMIcalc")
 # set variables
