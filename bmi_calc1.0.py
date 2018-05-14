@@ -3,7 +3,6 @@
 
 # In[53]:
 
-
 print("slindc's ADULT BMI calc" )
 h1=input("Hight_Feet ")
 h1=float(h1)
