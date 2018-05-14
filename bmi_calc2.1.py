@@ -6,10 +6,10 @@ print("slindc's BMIcalc")
 
 # set variables
 
-inputedAge = float(input("Persons age in years : ") or "21")
-inputedFeet = float(input("Hight_Feet : ") or "0")
-inputedInches = float(input("Inches : ") or "0")
-inputedLbs = float(input("Weight in # : ") or "1")
+inputedAge = int(input("Persons age in years : ") or "21")
+inputedFeet = int(input("Hight_Feet : ") or "0")
+inputedInches = int(input("Inches : ") or "0")
+inputedLbs = int(input("Weight in # : ") or "1")
 
 # lists
 
